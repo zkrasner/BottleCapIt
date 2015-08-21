@@ -1,0 +1,7 @@
+Group members: Zach Krasner
+
+150-400 Word Description:
+  I propose to create an application that allows a user to create bottle cap art out of an image that they have selected. The application would take in an image from the user. It would parse the image based on a few inputs from the user (desired size of work, maybe cost of finished product, number of colors, number of caps) and outputs how the user could recreate that image using caps from beer/soda bottles. The app would work by sectioning the image up into small boxes depending on how big the user wanted the bottle cap image. Then using a library of existing bottle caps tops, it would select the bottle cap that best fit the color of that section of the image grid. Obviously with a bigger output, the resolution of the image in bottle caps could be greater, so choices for caps may change for a given color based on the size of the output.
+
+I think there would probably be a few custom classes for this, but one would definitely be the bottle cap class that allows you to look at the bottle caps’ color distribution at different resolutions.
+Numpy, tinter and probably some more image handling modules will be used. Maybe beautiful soup too to get prices for caps or bottles should the user want that information.
